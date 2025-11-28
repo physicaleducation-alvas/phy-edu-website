@@ -60,9 +60,8 @@ export default function HeroSlider() {
         {/* Images Track */}
         <div
           ref={slideRef}
-          className={`flex ${
-            transition ? "transition-transform duration-700 ease-in-out" : ""
-          }`}
+          className={`flex ${transition ? "transition-transform duration-700 ease-in-out" : ""
+            }`}
           style={{ transform: `translateX(-${index * 100}%)` }}
         >
           {images.map((src, i) => (
