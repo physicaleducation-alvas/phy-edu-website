@@ -1,7 +1,7 @@
-export default function ActivitiesLayout({ children }) {
+export default function activitiesLayout({ children }) {
   return (
-    <div className="activities-wrapper">
+    <div>
       {children}
     </div>
-  )
+  );
 }
