@@ -61,6 +61,11 @@ export const navRoutes = [
         name: 'Staff list',
         path: '/college/staff-list',
         id: 'staff-list'
+      },
+      {
+        name: 'Infrastructure',
+        path: '/college/infrastructure',
+        id: 'infrastructure'
       }
     ]
   },
@@ -82,81 +87,19 @@ export const navRoutes = [
     ]
   },
   {
-    name: 'Infrastructure',
-    path: '/infrastructure',
-    id: 'infrastructure',
-    dropdown: [
-      {
-        name: 'Class Room',
-        path: '/infrastructure/class-room',
-        id: 'class-room'
-      },
-      {
-        name: 'Ground',
-        path: '/infrastructure/ground',
-        id: 'ground'
-      },
-      {
-        name: 'Transport',
-        path: '/infrastructure/transport',
-        id: 'transport'
-      },
-      {
-        name: 'ATM',
-        path: '/infrastructure/atm',
-        id: 'atm'
-      },
-      {
-        name: 'Canteen',
-        path: '/infrastructure/canteen',
-        id: 'canteen'
-      },
-      {
-        name: 'Post office',
-        path: '/infrastructure/post-office',
-        id: 'post-office'
-      },
-      {
-        name: 'Laboratories',
-        path: '/infrastructure/laboratories',
-        id: 'laboratories'
-      },
-      {
-        name: 'Open Air Theatre',
-        path: '/infrastructure/open-air-theatre',
-        id: 'open-air-theatre'
-      },
-      {
-        name: 'Hostel',
-        path: '/infrastructure/hostel',
-        id: 'hostel'
-      },
-      {
-        name: 'Library',
-        path: '/infrastructure/library',
-        id: 'library'
-      },
-      {
-        name: 'Ramp & Left',
-        path: '/infrastructure/ramp-and-left',
-        id: 'ramp-and-left'
-      },
-      {
-        name: 'Multipurpose Hall',
-        path: '/infrastructure/multipurpose-hall',
-        id: 'multipurpose-hall'
-      }
-    ]
-  },
-  {
     name: 'Mandatory Disclosure',
     path: '/mandatory-disclosure',
     id: 'mandatory-disclosure',
     dropdown: [
       {
-        name: 'Affidavit',
-        path: '/mandatory-disclosure/affidavit',
-        id: 'affidavit'
+        name: 'Affidavit - I',
+        path: '/mandatory-disclosure/affidavit-i',
+        id: 'affidavit-i'
+      },
+      {
+        name: 'Affidavit - II',
+        path: '/mandatory-disclosure/affidavit-ii',
+        id: 'affidavit-ii'
       },
       {
         name: 'Balance Sheet',

@@ -13,10 +13,10 @@ export default function CampusInsights() {
           "
         >
           <div>
-            <p className="text-white text-base sm:text-lg lg:text-xl font-semibold">
+            <p className="text-white text-base sm:text-lg lg:text-xl subtitle font-semibold">
               Campus
             </p>
-            <p className="text-white text-xl sm:text-2xl lg:text-3xl font-extrabold leading-tight">
+            <p className="text-white text-xl sm:text-2xl subtitle lg:text-3xl font-extrabold leading-tight">
               INSIGHTS
             </p>
           </div>
