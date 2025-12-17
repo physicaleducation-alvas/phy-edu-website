@@ -50,7 +50,7 @@ export default function HeroSlider() {
   return (
     <div className="">
       {/* Title */}
-      <div className="py-4 text-center text-xl font-semibold md:py-7">
+      <div className="py-4 subtitle text-center text-xl font-semibold md:py-7">
         Achievements
       </div>
 
