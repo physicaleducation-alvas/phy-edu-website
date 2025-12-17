@@ -3,20 +3,17 @@ import Achievements from "@/components/achievements";
 import CampusInsights from "@/components/campusInsights";
 import SupportOrganizationsCarousel from "@/components/supportOrganizations";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
 
 export default function Header() {
 
   return (
     <>
-
-
       {/* === BELOW ENQUIRY STRIP SECTION === */}
       <section className=" w-full mt-20 px-10 py-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
 
           {/* LEFT HALF: 6 IMAGE CARDS */}
-          <div className="grid grid-cols-3 gap-6">
+          <div className="subtitle grid grid-cols-3 gap-6">
 
             {/* Admission */}
             <a href="/admission" className="block">
@@ -135,18 +132,18 @@ export default function Header() {
 
             {/* RIGHT — MESSAGE */}
             <div className="flex-1 md:px-10">
-              <h2 className="text-xl sm:text-2xl font-bold mb-4 text-center md:text-left">
+              <h2 className="text-xl title sm:text-2xl font-bold mb-4 text-center md:text-left">
                 CHAIRMAN'S MESSAGE
               </h2>
 
-              <p className="text-gray-700 leading-relaxed mb-4 text-sm sm:text-base">
+              <p className="text-gray-700 subtitle leading-relaxed mb-4 text-sm sm:text-base">
                 Alva's Education Foundation Is The Crown Of All The Institutes Under
                 Our Umbrella. Personally Being An Artist And Sport Lover I Cherish And
                 Realize Our Dreams Of Building A Young Generation With Enthusiasm And
                 Cultural Intelligence Has Found Its Realization Through This Foundation.
               </p>
 
-              <p className="text-gray-700 leading-relaxed mb-4 text-sm sm:text-base">
+              <p className="text-gray-700 subtitle leading-relaxed mb-4 text-sm sm:text-base">
                 The Diverse Academic Disciplines Integrated With The Cultural And Sport
                 Activities Is The Driving Force To Make Our Youth Competent Enough To
                 Face Challenges Of The Global Community. Through The Individual Centered
@@ -154,15 +151,15 @@ export default function Header() {
                 Community May It Are Knowledge Wealth Or Social Progression.
               </p>
 
-              <p className="text-gray-700 leading-relaxed mb-6 text-sm sm:text-base">
+              <p className="text-gray-700 subtitle leading-relaxed mb-6 text-sm sm:text-base">
                 We Ensure A Safe And Formative Involvement For All The Students To Create
                 Themselves As The Assets Of The Family And Our Great Nation.
               </p>
 
-              <p className="text-red-600 font-bold text-lg sm:text-xl">
+              <p className="text-red-600 subtitle font-bold text-lg sm:text-xl">
                 Dr. Mohan Alva
               </p>
-              <p className="font-semibold text-gray-800 text-sm sm:text-base">
+              <p className="font-semibold subtitle text-gray-800 text-sm sm:text-base">
                 Chairman, Alva's Education Foundation (R.)
               </p>
             </div>
